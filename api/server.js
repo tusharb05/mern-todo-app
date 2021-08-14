@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://admin-tushar:test123@cluster0.p6aee.mongodb.net/todoDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("<Connection URL for mongoDB>", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const userSchema = mongoose.Schema({
     username:{
