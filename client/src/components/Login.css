@@ -1,0 +1,35 @@
+/* https://images.pond5.com/animated-cartoon-planets-space-footage-053556521_iconl.jpeg */
+
+.login-bg{
+    height: 100vh;
+    width: 100%;
+    background-color: #daebfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-form{
+    background-color: #fff;
+    width: 65%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 30px #d2cdd8 ;
+}
+input{
+    /* border: none !important; */
+    border-bottom: 1px solid rgb(0, 0, 121);
+    width: 80%;
+}
+.login-btn{
+    margin-left: 43%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.register-link, .register-link:focus, .register-link:active{
+    margin-left: 38%;
+    text-decoration: none;
+}
+h6{
+    margin-top:20px;
+    margin-bottom: 0;
+}

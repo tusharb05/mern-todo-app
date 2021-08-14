@@ -1,0 +1,51 @@
+h5{
+    font-size: 1.2rem;
+    max-width: 90%;
+}
+.todo{
+    /* border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    margin-bottom: 10px; */
+    background-color: #cef8fd;
+    padding: 10px;
+    margin: 5px;
+    /*  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width:85%;
+}
+.star-icon{
+    margin-top:5px;
+}
+.starred-icon{
+    margin-top:5px;
+    color: goldenrod;
+}
+.trash-icon{
+    color: #e94344;
+    margin-top:2px;
+    margin-left:5px;
+    margin-right:5px;
+}
+/* .edit-icon{
+    color: rgb(25, 199, 25);
+    margin-top:2px;
+    margin-right:5px;
+} */
+.tick-icon{
+    border-radius: 50px;
+    border: 0.125rem solid rgb(37, 37, 104);
+    /* margin-left: 5px; */
+}
+.star-icon, .starred-icon, .tick-icon, .edit-icon, .trash-icon, .ticked-icon{
+    cursor: pointer;
+    transition: all 300ms;
+}
+.ticked-icon{
+    border-radius: 50px;
+    border: 0.125rem solid rgb(37, 37, 104);
+    background-color: rgb(37, 37, 104);
+    color: white;
+    /* margin-left: 5px; */
+}

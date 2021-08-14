@@ -1,0 +1,11 @@
+.main-todo-section{
+    width:100%;
+    height:60%;
+    margin-top: 7%;
+    margin-left: 14%;
+    /* background-color: #cef8fd; */
+    background-color: azure;
+    /* text-align: center; */
+    /* text-align: left; */
+    overflow: auto;
+}
