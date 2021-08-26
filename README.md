@@ -12,7 +12,7 @@ My first mern stack app
 
 ## Installation
 
-``npm install``
+```npm install```
 
 ## Contributing
 
